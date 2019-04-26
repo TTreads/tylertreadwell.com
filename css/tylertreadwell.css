@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	font-family: "SF Compact Text", Helvetica, Arial, sans-serif;
+}
+h1{
+	font-weight: 600;
+}
+.container {
+    margin: 1rem;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.container {
+    margin: 1rem;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.imprint {
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 30px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 25vh;
+    transition: 500ms ease-in;
+    cursor: pointer;
+}
+.imprint p {
+    line-height: 2.5;
+}
+
+.imprint:hover {
+    box-shadow: 10px 8px 9px 0px rgba(0, 0, 0, 0.058);
+}
